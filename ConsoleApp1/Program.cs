@@ -13,7 +13,6 @@ namespace ConsoleApp1
             decimal montoFactura = 94593.34m + 0.07m;
             float impuestoVenta = 9239.04f;
 
-
             Console.WriteLine("Valores:{0} -- {1}", montoFactura, impuestoVenta);
             char letraInicial = 'P';
             string nombreCurso = letraInicial + "rogramación II";
@@ -30,6 +29,15 @@ namespace ConsoleApp1
             double resultadoPotencia = Math.Pow(78, 2);
             double resultadoRaiz = Math.Sqrt(144);
 
+            int primerNumero = 48;
+            int segundoNumero = 12;
+            primerNumero += segundoNumero;
+            primerNumero -= segundoNumero;
+            primerNumero *= segundoNumero;
+            primerNumero /= segundoNumero;
+            primerNumero %= segundoNumero;
+            primerNumero++;
+            primerNumero--;
 
         }
     }
