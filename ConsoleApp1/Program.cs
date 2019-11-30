@@ -64,6 +64,18 @@ namespace ConsoleApp1
                 Console.WriteLine("Este minuto es impar");
             }
             ////
+            int rondasFaltantes = 3;
+            while (rondasFaltantes > 0)
+            {
+                rondasFaltantes--;
+            }
+            rondasFaltantes = 3;
+            do
+            {
+                rondasFaltantes--;
+            } while (rondasFaltantes > 0);
+            ////
+            
         }
     }
 }
