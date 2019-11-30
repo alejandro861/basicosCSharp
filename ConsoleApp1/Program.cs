@@ -95,7 +95,7 @@ namespace ConsoleApp1
             string frase = "La programación me permite crear";
             Console.WriteLine("{0}", frase.ToUpper());
             Console.WriteLine("{0}", frase.ToLower());
-            Console.WriteLine("{0} {1}", frase.Substring(1).ToUpper(), frase.Substring(1, frase.Length - 2).ToLower());
+            Console.WriteLine("{0}{1}", frase.Substring(0).ToUpper(), frase.Substring(2, frase.Length - 2).ToLower());
             int unMillon = 1000000;
             string numeroComoCaracter = unMillon.ToString();
             ////
