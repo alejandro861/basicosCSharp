@@ -4,6 +4,17 @@ namespace ConsoleApp1
 {
     class Program
     {
+        double resultado = 0;
+        void LimpiarResultado()
+        {
+            resultado = 0;
+        }
+        double Multiplicar(int a, int b)
+        {
+            resultado = a + b;
+            return resultado;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
